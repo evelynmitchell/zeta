@@ -3,8 +3,6 @@
 import logging
 from typing import Any
 
-from sky import AWS, Resources
-
 from zeta.cloud.sky_api import SkyInterface
 
 skyapi = SkyInterface(stream_logs_enabled=True)
